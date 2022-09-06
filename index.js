@@ -19,7 +19,7 @@ const level = (label, number) => ({
     level_name: label.toUpperCase(),
 });
 
-const log = (obj) => {
+const index = (obj) => {
     const {
         err,
         code,
@@ -81,7 +81,7 @@ const streamToElastic = pinoElastic({
 module.exports.createLogger = (base) => pino({
     base,
     messageKey: 'message',
-    formatters: { level, log },
+    formatters: { level, log: index },
     customLevels,
     useOnlyCustomLevels: true,
     level: 'debug',
