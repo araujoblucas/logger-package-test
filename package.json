@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/araujoblucas/logger-test#readme",
   "publishConfig": {
-    "@YOUR-USERNAME:registry": "https://npm.pkg.github.com"
+    "@araujoblucas:registry": "https://npm.pkg.github.com"
   }
 }
