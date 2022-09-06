@@ -1,5 +1,5 @@
 {
-  "name": "@araujoblucas/test-logger",
+  "name": "@araujoblucas/logger-test",
   "version": "1.0.0",
   "description": "Test for logger",
   "main": "log.js",
