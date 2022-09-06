@@ -4,7 +4,7 @@
   "description": "Test for logger",
   "main": "log.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "exit 0"
   },
   "author": "",
   "license": "ISC",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/araujoblucas/logger-test/issues"
   },
-  "homepage": "https://github.com/araujoblucas/logger-test#readme"
+  "homepage": "https://github.com/araujoblucas/logger-test#readme",
+  "publishConfig": {
+    "@YOUR-USERNAME:registry": "https://npm.pkg.github.com"
+  }
 }
